@@ -1,4 +1,5 @@
 import {expect} from 'chai'
+import getDoorToggleTime from '../getDoorToggleTime'
 
 describe('100 doors',()=>{
   it('should be 1 for 1',()=>{
