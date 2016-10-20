@@ -8,7 +8,7 @@ describe('100 doors',()=>{
   it('should be 2 for 2',()=>{
     expect(getDoorToggleTime(2)).to.be.equal(2)
   })
-  it('should be 3 for 2',()=>{
+  it('should be 2 for 3',()=>{
     expect(getDoorToggleTime(3)).to.be.equal(2)
   })
 })
