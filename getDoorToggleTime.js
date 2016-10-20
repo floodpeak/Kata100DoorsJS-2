@@ -1,5 +1,5 @@
 export default (doorNumber)=>{
-  if(doorNumber === 2 || doorNumber === 3){
+  if(doorNumber > 1){
     return 2
   }
   return 1
